@@ -16,7 +16,7 @@ import { AiTwotoneExperiment } from "react-icons/ai";
 import { GiSkills } from "react-icons/gi";
 import { SlGraduation } from "react-icons/sl";
 function Resume() {
-  const [active, setActive] = useState("btnOne");
+  const [active, setActive] = useState("btnThree");
   return (
     <section class="remuse" id="resume">
       <div class="container">
@@ -31,7 +31,7 @@ function Resume() {
           <div class="left" data-aos="fade-down" data-aos-delay="100">
             <div class="navigation">
               <ul>
-                <li
+                {/* <li
                   class={active === "btnOne" ? "list active" : "box"}
                   id="btnOne"
                   onClick={() => setActive("btnOne")}
@@ -54,7 +54,7 @@ function Resume() {
                     </span>
                     <span class="title">Experinece</span>
                   </div>
-                </li>
+                </li> */}
                 <li
                   class={active === "btnThree" ? "list active" : "box"}
                   id="btnThree"
@@ -72,7 +72,7 @@ function Resume() {
           </div>
 
           <div class="content-indcator">
-            <div class={active === "btnOne" ? "box active" : "box"} id="home">
+            {/* <div class={active === "btnOne" ? "box active" : "box"} id="home">
               <div>
                 <div class="left-box" data-aos="fade-down" data-aos-delay="400">
                   <div class="card">
@@ -183,7 +183,7 @@ function Resume() {
                   </div>
                 </div>
               </div>
-            </div>
+            </div> */}
             <div
               class={active === "btnThree" ? "box active" : "box"}
               id="my-skills"
