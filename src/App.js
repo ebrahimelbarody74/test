@@ -48,7 +48,7 @@ function App() {
           <Header />
           <About />
           <Service />
-          <Resume />
+          {/* <Resume /> */}
           <Contact />
           {scroll > 200 && (
             <div

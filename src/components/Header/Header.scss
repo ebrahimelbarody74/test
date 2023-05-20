@@ -187,6 +187,8 @@
   text-transform: capitalize;
   font-size: 25px;
   margin-bottom: 7px;
+}
+.hom-content .left .center {
   display: flex;
   gap: 1rem;
   align-items: center;
@@ -417,6 +419,13 @@
     height: 0;
     padding-top: 0;
   }
+  .hom-content .left .center {
+    justify-content: center;
+    font-size: 18px;
+  }
+  .hom-content .left .center span {
+    font-size: 18px;
+  }
   .hom-content .left {
     flex: 100%;
     display: flex;
@@ -470,28 +479,36 @@
   }
 }
 @media only screen and (max-width: 538px) {
-  .hom-content {
-    display: flex;
+  .hom-content .left .center {
     justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    font-size: 18px;
+  }
+  .hom-content .left .center span {
+    font-size: 18px;
+  }
+  .hom-content {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    flex-wrap: wrap !important;
     height: 0;
   }
   .hom-content .left {
-    flex: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    flex: 100% !important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    text-align: center !important;
     margin: 0;
     padding: 0;
     margin-top: -10px;
   }
-  .hom-content .left .hi {
-    color: var(--main-color);
-    text-transform: capitalize;
 
-    font-size: 20px;
+  .hom-content .left .hi {
+    color: var(--main-color) !important;
+    text-transform: capitalize !important;
+
+    font-size: 20px !important;
     margin-bottom: 7px;
     padding-top: 10px;
   }
@@ -520,7 +537,7 @@
 
   .hom-content .left h2 {
     text-transform: capitalize;
-    font-size: 30px;
+    font-size: 25px;
     color: var(--white-color);
     padding-bottom: 10px;
   }

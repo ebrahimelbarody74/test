@@ -10,6 +10,7 @@ import { BsTwitter } from "react-icons/bs";
 import { BsLinkedin } from "react-icons/bs";
 import { BsWhatsapp } from "react-icons/bs";
 import Typewriter from "typewriter-effect";
+import file from "../../assets/cv (1).pdf";
 function Header() {
   const [toggle, setToggle] = useState(false);
   const [scroll, setSecroll] = useState(0);
@@ -88,12 +89,12 @@ function Header() {
       <div class="main-info">
         <div class="container">
           <div class="hom-content">
-            <div class="left" data-aos="fade-down" data-aos-delay="100">
+            <div class="left">
               <p class="hi">hello,</p>
               <h2>
                 i'm <span>Ebrahim Mohamed</span>
               </h2>
-              <p>
+              <p className="center">
                 and I'm
                 <span class="animate" id="">
                   <Typewriter
@@ -107,7 +108,10 @@ function Header() {
               </p>
               <div class="button">
                 <button class="btn">
-                  <a href="cv eslam mohamed.pdf"> download cv</a>
+                  <a href={file} download={file}>
+                    {" "}
+                    download cv
+                  </a>
                 </button>
               </div>
               <div class="icon">
