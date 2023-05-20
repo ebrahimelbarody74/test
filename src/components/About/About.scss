@@ -242,6 +242,9 @@
 }
 
 @media (max-width: 767px) and (min-width: 540px) {
+  .about::before {
+    width: 0% !important;
+  }
   .about .box-content {
     display: flex;
     flex-wrap: wrap;
@@ -257,11 +260,11 @@
     flex: 100%;
     margin: 20px auto;
   }
+}
+@media only screen and (max-width: 538px) {
   .about::before {
     width: 0% !important;
   }
-}
-@media only screen and (max-width: 538px) {
   .about .box-content {
     display: flex;
     flex-wrap: wrap;
