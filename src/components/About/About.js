@@ -12,7 +12,7 @@ import { AiFillStar } from "react-icons/ai";
 
 function About() {
   return (
-    <section class="about" id="info">
+    <section class="about" id="about">
       <div class="container">
         <div class="heading">
           <h2>

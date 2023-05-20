@@ -27,7 +27,7 @@ function Header() {
   }, []);
 
   return (
-    <section class="home">
+    <section class="home" id="home">
       <div class={scroll > 200 ? "nav on" : "nav"} id="nav">
         <div class="container">
           <div class="navbar">
@@ -41,32 +41,22 @@ function Header() {
             <div class="nav-list">
               <ul class={toggle ? "links visibal" : "links"} id="links">
                 <li>
-                  <a class="item-nav" href="index.html">
+                  <a class="item-nav" href="#home">
                     home
                   </a>
                 </li>
                 <li>
-                  <a class="item-nav" href="#" data-cool="info">
+                  <a class="item-nav" href="#about" data-cool="info">
                     about
                   </a>
                 </li>
                 <li>
-                  <a class="item-nav" href="#" data-cool="resume">
-                    resume
-                  </a>
-                </li>
-                <li>
-                  <a class="item-nav" href="#" data-cool="service">
+                  <a class="item-nav" href="#service" data-cool="service">
                     service
                   </a>
                 </li>
                 <li>
-                  <a class="item-nav" href="#" data-cool="portfolios">
-                    portfolios
-                  </a>
-                </li>
-                <li>
-                  <a class="item-nav" href="#" data-cool="contact">
+                  <a class="item-nav" href="#contact" data-cool="contact">
                     contact
                   </a>
                 </li>
