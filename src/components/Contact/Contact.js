@@ -29,7 +29,7 @@ function Contact() {
         <div class="box-container">
           <div class="box-content">
             <div class="box-left">
-              <a href="#">
+              <a href="http://aewr.com">
                 <div class="box" data-aos="fade-down" data-aos-delay="100">
                   <div class="one">
                     <BsWhatsapp />
@@ -39,7 +39,7 @@ function Contact() {
                   </div>
                 </div>
               </a>
-              <a href="#">
+              <a href="http://aewr.com">
                 <div
                   class="box center"
                   data-aos="fade-down"
@@ -53,7 +53,7 @@ function Contact() {
                   </div>
                 </div>
               </a>
-              <a href="#">
+              <a href="http://aewr.com">
                 <div class="box" data-aos="fade-down" data-aos-delay="300">
                   <div class="one">
                     <AiFillGithub />
@@ -70,7 +70,7 @@ function Contact() {
           </div>
           <div class="box-content">
             <div class="right-box" data-aos="fade-up" data-aos-delay="300">
-              <a href="#">
+              <a href="http://aewr.com">
                 <div class="box" data-aos="fade-up" data-aos-delay="400">
                   <div class="one">
                     <BsMessenger />
@@ -80,7 +80,7 @@ function Contact() {
                   </div>
                 </div>
               </a>
-              <a href="#">
+              <a href="http://aewr.com">
                 <div class="box center" data-aos="fade-up" data-aos-delay="200">
                   <div class="one">
                     <BsFillEnvelopeFill />
@@ -90,7 +90,7 @@ function Contact() {
                   </div>
                 </div>
               </a>
-              <a href="#">
+              <a href="http://aewr.com">
                 <div class="box" data-aos="fade-up" data-aos-delay="300">
                   <div class="one">
                     <BsLinkedin />
@@ -108,28 +108,28 @@ function Contact() {
         <div class="container">
           <div class="icon">
             <div>
-              <a href="#">
+              <a href="http://aewr.com">
                 <AiFillFacebook />
               </a>
             </div>
 
             <div>
-              <a href="#">
+              <a href="http://aewr.com">
                 <BsLinkedin />
               </a>
             </div>
             <div>
-              <a href="#">
+              <a href="http://aewr.com">
                 <BsTwitter />
               </a>
             </div>
             <div>
-              <a href="#">
+              <a href="http://aewr.com">
                 <BsFillEnvelopeFill />
               </a>
             </div>
             <div>
-              <a href="#">
+              <a href="http://aewr.com">
                 <BsWhatsapp />
               </a>
             </div>
