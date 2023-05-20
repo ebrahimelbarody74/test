@@ -33,6 +33,7 @@
 .my-services .box-content .box-card:hover {
   background: transparent;
   box-shadow: 5px 5px 10px var(--background-card);
+  transform: translateY(-30px) !important;
 
   cursor: pointer;
   transform: translateY(-20px);
