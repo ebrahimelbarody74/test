@@ -1,19 +1,19 @@
 import React, { useState } from "react";
 import "./Resume.scss";
-import { SiFarfetch } from "react-icons/si";
+import { SiFarfetch, SiFiverr, SiFreelancer } from "react-icons/si";
 import { SiSass } from "react-icons/si";
-import { BsGit } from "react-icons/bs";
+import { BsColumnsGap, BsCommand, BsGit, BsGoogle, BsMoonStars } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";
-import { DiReact } from "react-icons/di";
+import { DiReact, DiYahoo } from "react-icons/di";
 import { SiJquery } from "react-icons/si";
 import { BsFillBootstrapFill } from "react-icons/bs";
-import { FaJsSquare } from "react-icons/fa";
+import { FaCentercode, FaJsSquare, FaRegEdit } from "react-icons/fa";
 import { DiCss3 } from "react-icons/di";
 import { AiFillHtml5 } from "react-icons/ai";
 import { AiFillStar } from "react-icons/ai";
 import { BsBook } from "react-icons/bs";
 import { AiTwotoneExperiment } from "react-icons/ai";
-import { GiSkills } from "react-icons/gi";
+import { GiGooeyDaemon, GiSkills } from "react-icons/gi";
 import { SlGraduation } from "react-icons/sl";
 function Resume() {
   const [active, setActive] = useState("btnThree");
@@ -65,6 +65,18 @@ function Resume() {
                       <GiSkills />
                     </span>
                     <span class="title">Skills</span>
+                  </div>
+                </li>
+                <li
+                  class={active === "btnTwo" ? "list active" : "box"}
+                  id="btnTwo"
+                  onClick={() => setActive("btnTwo")}
+                >
+                  <div>
+                    <span class="icon">
+                      <GiSkills />
+                    </span>
+                    <span class="title">Works</span>
                   </div>
                 </li>
               </ul>
@@ -272,6 +284,100 @@ function Resume() {
                       </div>
                       <div class="title">
                         <h4>Fatch API</h4>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class={active === "btnTwo" ? "box active" : "box"}
+              id="my-skills"
+            >
+              <div class="skills">
+                <div class="container-box">
+                  <div class="boxs-left">
+                    <div class="item" data-aos="fade-up" data-aos-delay="10">
+                      <div class="one">
+                        <BsCommand />
+                      </div>
+                      <div class="title">
+                        <h4>BsCommand</h4>
+                      </div>
+                    </div>
+                    <div class="item" data-aos="fade-up" data-aos-delay="10">
+                      <div class="one">
+                        <BsColumnsGap />
+                      </div>
+                      <div class="title">
+                        <h4>BsColumnsGap</h4>
+                      </div>
+                    </div>
+
+                    <div class="item" data-aos="fade-up" data-aos-delay="10">
+                      <div class="one">
+                        <FaCentercode />
+                      </div>
+                      <div class="title">
+                        <h4> FaCentercode</h4>
+                      </div>
+                    </div>
+                    <div class="item" data-aos="fade-up" data-aos-delay="10">
+                      <div class="one">
+                        <BsGoogle />
+                      </div>
+                      <div class="title">
+                        <h4>BsGoogle</h4>
+                      </div>
+                    </div>
+                    <div class="item" data-aos="fade-up" data-aos-delay="10">
+                      <div class="one">
+                        <SiFreelancer />
+                      </div>
+                      <div class="title">
+                        <h4>SiFreelance</h4>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="boxs-left">
+                    <div class="item" data-aos="fade-up" data-aos-delay="10">
+                      <div class="one">
+                        <FaRegEdit />
+                      </div>
+                      <div class="title">
+                        <h4>FaRegEdit</h4>
+                      </div>
+                    </div>
+                    <div class="item" data-aos="fade-up" data-aos-delay="10">
+                      <div class="one">
+                        <DiYahoo />
+                      </div>
+                      <div class="title">
+                        <h4>DiYahoo</h4>
+                      </div>
+                    </div>
+                    <div class="item" data-aos="fade-up" data-aos-delay="10">
+                      <div class="one">
+                        <GiGooeyDaemon />
+                      </div>
+                      <div class="title">
+                        <h4>GiGooeyDaemon</h4>
+                      </div>
+                    </div>
+                    <div class="item" data-aos="fade-up" data-aos-delay="10">
+                      <div class="one">
+                        <SiFiverr />
+                      </div>
+                      <div class="title">
+                        <h4>SiFiverr</h4>
+                      </div>
+                    </div>
+                    <div class="item" data-aos="fade-up" data-aos-delay="10">
+                      <div class="one">
+                        <BsMoonStars />
+                      </div>
+                      <div class="title">
+                        <h4>BsMoonStars </h4>
                       </div>
                     </div>
                   </div>
