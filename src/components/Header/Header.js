@@ -56,6 +56,11 @@ function Header() {
                   </a>
                 </li>
                 <li>
+                  <a class="item-nav" href="#resume" data-cool="service">
+                    resume
+                  </a>
+                </li>
+                <li>
                   <a class="item-nav" href="#contact" data-cool="contact">
                     contact
                   </a>
