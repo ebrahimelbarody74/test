@@ -344,6 +344,9 @@
   }
 }
 @media (max-width: 767px) and (min-width: 540px) {
+  .remuse .box-content {
+    flex-direction: column;
+  }
   .box-content .navigation {
     min-height: 700px !important;
   }
@@ -375,33 +378,38 @@
   .edcation .card .book span::after {
     height: 156px;
   }
-}
-@media only screen and (max-width: 538px) {
-  .content-edcation .card {
-    flex: 100%;
-  }
-  .remuse .box-content .navigation {
-    min-height: 650px;
-  }
-  .remuse .box-content .navigation ul {
-    transform: translateY(40%);
-  }
-  .skills .container-box .boxs-left {
-    flex: 90%;
-    margin: 0 0 0 4%;
+    .remuse .box-content {
+    flex-direction: column;
   }
   .remuse .box-content .left {
-    width: 80px;
+    height: fit-content;
+    width: 100% !important;
+    margin-bottom: 50px !important;
   }
+  .remuse .box-content .navigation{
+    overflow-x: visible !important;
+    min-height: auto !important;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 538px) {
+  .remuse .box-content {
+    flex-direction: column;
+  }
+  .remuse .box-content .left {
+    height: fit-content;
+    width: 100% !important;
+    margin-bottom: 50px !important;
+  }
+  .remuse .box-content .navigation{
+    overflow-x: visible !important;
+    min-height: auto !important;
+    width: 100%;
+  }
+  // .content-edcation .card {
+  //   flex: 100%;
+  // }
 
-  .left-box .card .title .icon {
-    margin-left: 10px;
-  }
-  .remuse .content-indcator {
-    margin-left: 4px;
-
-    transform: translateY(0%);
-  }
   .edcation .card .book span::after {
     height: 156px;
   }
