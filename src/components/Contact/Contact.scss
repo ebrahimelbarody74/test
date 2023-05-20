@@ -1,0 +1,267 @@
+footer {
+  background: linear-gradient(120deg, #aa367c -5.91%, #4a2fbd 111.58%);
+  width: 100%;
+  height: auto;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+footer .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 50px;
+}
+footer .box-container .image {
+  flex: 20.33%;
+  margin: 0% 3% 0 0;
+  position: relative;
+}
+
+footer .box-container .image img {
+  width: 100%;
+}
+footer .box-container .box-content {
+  flex: 30.33%;
+  flex-direction: column;
+}
+
+footer .box-content {
+  display: flex;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+  padding: 0 50px;
+}
+
+footer .box-container .box-left .box,
+footer .box-container .right-box .box {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 30px;
+  height: 60px;
+  line-height: 60px;
+  color: var(--text-color-light);
+  position: relative;
+  border-radius: 7px;
+  transition: 0.6s ease-in-out !important;
+  color: var(--background-icon);
+}
+
+footer .box-container .box .one {
+  width: 50px;
+  height: 50px;
+  background: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: absolute;
+  right: -22px;
+  top: 0px;
+}
+footer .box-container .right-box .box .one {
+  position: absolute;
+  left: -22px;
+}
+footer .box-container .box img {
+  width: 38px;
+}
+footer .box-container .box svg {
+  font-size: 30px;
+  color: white;
+}
+footer .box-container .box .linkded {
+}
+footer .box-container .box h2 {
+  color: var(--main-color);
+  margin-bottom: 30px;
+
+  text-transform: capitalize;
+}
+footer .box-container .box-left .box.center {
+  transform: translateX(-70px) !important;
+}
+
+footer .box-container .right-box .box.center {
+  transform: translateX(70px) !important;
+}
+
+footer .box-container .box h4 {
+  color: var(--border-color);
+  text-transform: capitalize;
+}
+
+footer .box-container .box:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+  background-color: var(--main-color);
+  color: var(--white-color);
+}
+footer .box-container .box:hover .one {
+  background-color: rgba(250, 250, 250, 0.8);
+}
+footer .box-container .box:hover svg {
+  color: var(--main-color);
+}
+
+footer .box-container .box.github svg {
+  color: #1e1d1d;
+}
+footer .box-content .card.whatsapp i,
+footer .box-content .card.whatsapp a {
+  color: #00a859;
+}
+
+footer .box-content .card.messenger i,
+footer .box-content .card.messenger a {
+  color: #0961b8;
+}
+footer .box-content .card.linkedin i,
+footer .box-content .card.linkedin a {
+  color: #0961b8;
+}
+footer .box-content .card.github i,
+footer .box-content .card.github a {
+  color: #1e1d1d;
+}
+footer .box-content .left-box,
+footer .box-content .right-box {
+  background: none;
+}
+
+footer .copyright {
+  background-color: var(--background-card);
+  height: 80px;
+}
+footer .copyright .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .icon {
+  display: flex;
+  margin-top: 30px;
+}
+
+footer .icon div {
+  width: 30px;
+  height: 30px;
+  background: var(--main-color);
+  margin-right: 18px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  transition: transform 0.5s;
+}
+
+footer .icon div a svg {
+  font-size: 15px;
+  color: var(--light-color);
+  z-index: 1000;
+}
+footer .icon div a svg:hover {
+  color: white;
+}
+footer .icon div:hover {
+  transform: rotate(360deg) scale(1.2);
+  cursor: pointer;
+  background: var(--background-icon);
+}
+footer .copyright p {
+  color: var(--text-color-light);
+  margin-right: 20px;
+  line-height: 80px;
+  text-transform: capitalize;
+}
+footer .copyright p span {
+  color: var(--main-color);
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  footer .box-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .box-content .card {
+    flex: 48%;
+    margin: 10px 1%;
+  }
+}
+@media (max-width: 767px) and (min-width: 540px) {
+  footer .box-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .box-content .card {
+    flex: 48%;
+    margin: 10px 1%;
+  }
+  footer .copyright {
+    height: auto;
+  }
+}
+@media only screen and (max-width: 538px) {
+  footer .box-content {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  footer .copyright {
+    height: auto;
+  }
+  footer .box-content .card {
+    flex: 98%;
+    margin: 10px 1%;
+  }
+  footer .copyright {
+    height: auto;
+  }
+  footer .box-container .image {
+    flex: 96%;
+    margin: 0 2% 20px;
+  }
+  footer .box-container .box-left .box.center {
+    transform: translateX(0) !important;
+  }
+  footer .box-container .box-left .box.center:hover,
+  footer .box-container .right-box .box.center {
+    transform: scale(1.1);
+  }
+  footer .box-container .right-box .box.center {
+    transform: translateX(0) !important;
+  }
+
+  footer .copyright p {
+    color: var(--text-color-light);
+    margin-right: 0px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+  }
+}
+
+/**************end footer***************/
+
+.btn-top {
+  position: fixed;
+  right: 30px;
+  bottom: 30px;
+  background: var(--main-color);
+  width: 55px;
+  height: 55px;
+  border-radius: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 990;
+  visibility: hidden;
+}
+.btn-top:hover {
+  cursor: pointer;
+}
+.btn-top svg {
+  font-size: 20px;
+  color: var(--light-color);
+  transition: 0s;
+}

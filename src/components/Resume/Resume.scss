@@ -1,0 +1,408 @@
+.remuse {
+  background-image: url(../../assets/bg/footer-bg.png);
+  background-size: cover;
+  height: auto;
+  width: 100%;
+  background-repeat: repeat;
+  background-position: center center;
+  padding: 80px 0 250px;
+}
+
+.remuse .box-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  min-height: 490px;
+
+  position: relative;
+}
+.remuse .box-content .left {
+  width: 22%;
+  display: flex;
+  align-items: center;
+}
+.remuse .box-content .navigation {
+  width: 100%;
+  position: relative;
+  min-height: 400px;
+  background-color: var(--background-card);
+  box-shadow: 10px 0 0 var(--main-color);
+  border-left: 10px solid var(--background-card);
+  overflow-x: hidden;
+  transition: width 0.5s !important;
+}
+.remuse .box-content .navigation:hover {
+  width: 100%;
+}
+.remuse .box-content .navigation ul {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding-left: 5px;
+  padding-top: 40px;
+}
+.remuse .box-content .navigation ul li.active {
+  background-color: var(--main-color);
+}
+
+.remuse .box-content .navigation ul li.active a::before {
+  content: "";
+  position: absolute;
+  top: -30px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 15px 15px var(--main-color);
+}
+.remuse .box-content .navigation ul li.active a::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  right: 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 15px -15px var(--main-color);
+}
+
+.remuse .box-content .navigation ul li {
+  position: relative;
+  list-style: none;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  cursor: pointer;
+}
+.remuse .box-content .navigation ul li div {
+  position: relative;
+  display: block;
+  width: 100%;
+  display: flex;
+  text-decoration: none;
+  color: #fff;
+}
+.remuse .box-content .navigation ul li div .icon {
+  position: relative;
+  display: block;
+  min-width: 60px;
+  height: 60px;
+  line-height: 70px;
+  text-align: center;
+}
+.remuse .box-content .navigation ul li div .icon ion-icon {
+  position: relative;
+  font-size: 1.5em;
+  z-index: 1;
+}
+.remuse .box-content .navigation ul li div .title {
+  position: relative;
+  display: block;
+  padding-left: 10px;
+  height: 60px;
+  line-height: 60px;
+  white-space: nowrap;
+}
+
+.remuse .content-indcator {
+  margin-left: 2%;
+  flex: 76%;
+  overflow: hidden;
+  position: relative;
+  height: auto;
+  transform: translateY(14%);
+}
+.remuse .content-indcator .box {
+  width: 100%;
+
+  align-items: center;
+  align-content: center;
+  padding: 8px 0px;
+  top: -200%;
+  transition: all 0.7s ease-in-out !important;
+  color: white;
+  position: absolute;
+}
+
+.remuse .content-indcator .box.active {
+  top: 0;
+  color: red;
+}
+
+.remuse .content-indcator .box .left-box {
+  width: 100%;
+  margin-top: -10px;
+  padding: 40px 0 0 0;
+  margin-left: 10px;
+}
+.content-edcation {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 43px;
+
+  padding-left: 10px;
+}
+.content-edcation .card {
+  flex: 33%;
+}
+.Education .box-content {
+  display: flex;
+
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.left-box {
+  flex: 46%;
+  margin: 0 1%;
+  background: var(--background-card);
+  padding: 10px;
+}
+.left-box .card .title {
+  display: flex;
+  margin-bottom: 30px;
+}
+.left-box .card .title .icon {
+  width: 35px;
+  height: 35px;
+  background-color: var(--main-color);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 17px;
+}
+.left-box .card .title .icon svg {
+  color: var(--light-color);
+
+  font-size: 17px;
+}
+.left-box {
+  margin-bottom: 20px;
+}
+.left-box .card .title h2 {
+  margin-left: 20px;
+  line-height: 45px;
+  color: var(--white-color);
+}
+.Education .left-box .content-edcation {
+  padding: 10px 0 20px 0;
+  margin-bottom: 20px;
+}
+.left-box .content-edcation .card {
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+}
+.left-box .content-edcation .card .book {
+  width: 17%;
+  display: flex;
+  justify-content: center;
+  margin-left: -10px;
+}
+.left-box .content-edcation .card .book span {
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+  background: var(--text-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.left-box .content-edcation .card .book span::after {
+  position: absolute;
+  content: "";
+  width: 2px;
+  height: 124px;
+  top: 5px;
+  left: 47%;
+  background-color: var(--main-color);
+  z-index: 2;
+}
+.left-box .content-edcation .card .book span svg {
+  color: var(--main-color);
+}
+.left-box .content-edcation .card .text {
+  width: 83%;
+}
+.left-box .content-edcation .card .text h3 {
+  color: var(--white-color);
+  padding-bottom: 10px;
+  font-size: 15px;
+  text-transform: capitalize;
+}
+.left-box .content-edcation .card span {
+  color: var(--main-color);
+}
+.left-box .content-edcation .card p {
+  color: var(--text-color-light);
+  /* line-height: 19px; */
+  line-height: 28px;
+  padding: 6px 0px;
+}
+.left-box {
+  margin-bottom: 20px;
+}
+
+.skills .container-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0 30px;
+}
+.skills .container-box .boxs-left {
+  flex: 40%;
+  margin: 0 5%;
+}
+.skills .container-box .boxs-left .item {
+  display: flex;
+  justify-content: center;
+  background-color: var(--background-card);
+  margin-bottom: 10px;
+  height: 50px;
+  line-height: 50px;
+  color: var(--text-color-light);
+  position: relative;
+  border-radius: 7px;
+  transition: 0.6s !important;
+}
+
+.skills .container-box .boxs-left .item:hover {
+  transform: scale(1.1);
+  height: 55px;
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+.skills .container-box .boxs-left .item:hover .one {
+  background-color: var(--background-card);
+}
+.skills .container-box .boxs-left .item:hover svg {
+  color: var(--main-color);
+}
+
+.skills .container-box .boxs-left .item .one {
+  width: 40px;
+  height: 40px;
+  background: var(--main-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 5px;
+  position: absolute;
+  left: -22px;
+  top: 0px;
+}
+.skills .container-box .boxs-left .item svg {
+  font-size: 30px;
+  color: var(--light-color);
+}
+.skills .container-box .boxs-left h2 {
+  color: var(--main-color);
+  margin-bottom: 30px;
+
+  text-transform: capitalize;
+}
+
+.skills .box-cotent .left-box .box h4 {
+  color: var(--border-color);
+  text-transform: capitalize;
+}
+.skills .box-cotent .left-box .box:hover h4 {
+  color: var(--light-color);
+}
+.remuse .box-content .navigation ul {
+  position: absolute;
+  top: calc(18%);
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .box-content .navigation {
+    min-height: 480px !important;
+  }
+  .remuse .box-content .left {
+    flex: 28%;
+  }
+  .remuse .content-indcator {
+    margin-left: 2%;
+    flex: 70%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+  }
+  .remuse .box-content .navigation {
+    width: 100%;
+  }
+  .remuse .box-content .navigation ul {
+    position: absolute;
+    top: calc(0%);
+  }
+  .remuse .content-indcator {
+    transform: translateY(4%);
+  }
+}
+@media (max-width: 767px) and (min-width: 540px) {
+  .box-content .navigation {
+    min-height: 700px !important;
+  }
+
+  .remuse .content-indcator {
+    margin-left: 2%;
+    flex: 65%;
+    overflow: hidden;
+    position: relative;
+    height: auto;
+  }
+  .remuse .box-content .navigation {
+    width: 100%;
+  }
+  .skills .container-box .boxs-left {
+    flex: 90%;
+    margin: 0 0 0 4%;
+  }
+  .content-edcation .card {
+    flex: 100%;
+  }
+  .remuse .box-content .left {
+    width: 80px !important;
+  }
+  .remuse .box-content .navigation ul {
+    position: absolute;
+    top: calc(22%);
+  }
+  .edcation .card .book span::after {
+    height: 156px;
+  }
+}
+@media only screen and (max-width: 538px) {
+  .content-edcation .card {
+    flex: 100%;
+  }
+  .remuse .box-content .navigation {
+    min-height: 650px;
+  }
+  .remuse .box-content .navigation ul {
+    transform: translateY(40%);
+  }
+  .skills .container-box .boxs-left {
+    flex: 90%;
+    margin: 0 0 0 4%;
+  }
+  .remuse .box-content .left {
+    width: 80px;
+  }
+
+  .left-box .card .title .icon {
+    margin-left: 10px;
+  }
+  .remuse .content-indcator {
+    margin-left: 4px;
+
+    transform: translateY(0%);
+  }
+  .edcation .card .book span::after {
+    height: 156px;
+  }
+}
